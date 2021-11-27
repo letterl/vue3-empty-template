@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\libnvvp;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;G:\anaconda;G:\anaconda\Scripts;G:\anaconda\Library\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.2.2\;C:\Program Files (x86)\Yarn\bin\;C:\Users\Administrator\.cargo\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;G:\Program Files\Github CLI\;G:\Program Files\Microsoft VS Code\bin;G:\Golang\go1.15.5.windows-amd64\go\bin;G:\ffmpeg\bin;G:\flutter\bin;G:\Program Files\apache-maven-3.6.3\bin;G:\AndroidSDK\platform-tools;C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.2\bin;;G:\AndroidSDK\platform-tools;G:\Program Files\DataGrip 2021.1\bin;;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include;C:\Users\Administrator\AppData\Roaming\npm;F:\flutter\flutter_windows_2.5.1-stable\flutter\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;K:\cache\yarn\global\node_modules\.bin;K:\cache\nodeJs\node_global;
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.17.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'K:\jsSource\vue3-empty-template\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "hello-vue3",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vue-tsc --noEmit && vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "@types/axios": "^0.14.0",
+      "@types/nprogress": "^0.2.0",
+      "axios": "^0.24.0",
+      "nprogress": "^0.2.0",
+      "pinia": "^2.0.4",
+      "sass": "^1.43.5",
+      "vue": "^3.2.16",
+      "vue-router": "^4.0.12"
+    },
+    "devDependencies": {
+      "@arco-design/web-vue": "^2.5.0",
+      "@vitejs/plugin-vue": "^1.9.3",
+      "typescript": "^4.4.3",
+      "vite": "^2.6.4",
+      "vue-tsc": "^0.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
